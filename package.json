@@ -1,0 +1,39 @@
+{
+  "name": "react-native-cross-button",
+  "version": "1.0.0",
+  "description": "Integrate cross button, spinner, popOver(dropdown) and many other things. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "dependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesinghanoop/react-native-TextInput-Addons.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "cross-button",
+    "spinner",
+    "popover",
+    "dropdown",
+    "textInput"
+  ],
+  "author": {
+    "name": "Anoop Singh",
+    "email": "anoop100singh@gmail.com",
+    "url": "https://github.com/codesinghanoop"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesinghanoop/react-native-TextInput-Addons/issues"
+  },
+  "homepage": "https://github.com/codesinghanoop/react-native-TextInput-Addons#readme"
+}
