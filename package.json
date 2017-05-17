@@ -6,12 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
-  "dependencies": {
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.44.0"
-  },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codesinghanoop/react-native-TextInput-Addons.git"
@@ -35,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/codesinghanoop/react-native-TextInput-Addons/issues"
   },
-  "homepage": "https://github.com/codesinghanoop/react-native-TextInput-Addons#readme"
+  "homepage": "https://github.com/codesinghanoop/react-native-TextInput-Addons#readme",
+  "dependencies": {
+    "react-native-vector-icons": "^4.1.1"
+  }
 }

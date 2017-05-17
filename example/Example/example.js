@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { TextInput, View, StyleSheet } from 'react-native'
-import CrossTextInput from './index.js'
+import CrossTextInput from 'react-native-cross-button'
 export default class CrossButtonExample extends Component {
   
   constructor(props) {
