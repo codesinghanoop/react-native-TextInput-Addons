@@ -16,7 +16,6 @@ const CrossButton = (props: Props) => {
       <Icon
          name='times-circle'
          size={20}
-         style={[styles.clearIcon, this.props.clearButtonStyle]}
          color='lightgrey'
        />
       </View>
