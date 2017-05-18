@@ -9,11 +9,15 @@ export default class CrossButtonExample extends Component {
       email: '',
       name: '',
     }  
-    this.onInputCleared = this.onInputCleared.bind(this)  
+    this.onEmailInputCleared = this.onEmailInputCleared.bind(this)
+    this.onNameInputCleared = this.onNameInputCleared.bind(this)
   }
   
-  onInputCleared() {
-   this.setState({ email: '', name: ''});
+  onEmailInputCleared() {
+   this.setState({ email: ''});
+ }
+ onNameInputCleared() {
+  this.setState({ name: ''});
  }
   
   render() {
@@ -22,9 +26,9 @@ export default class CrossButtonExample extends Component {
       
       <View style = {styles.container}>
         <CrossTextInput underlineColorAndroid="transparent" value = {this.state.email} style={styles.textInput} autoCorrect={false} autoCapitalize="none" keyboardType="email-address" placeholder={'EMAIL'} placeholderTextColor="#adadad" onChangeText={(text) => this.setState({ email: text })}
-         containerStyle= {{backgroundColor: 'green'}} onInputCleared={this.onInputCleared} />
+         containerStyle= {{backgroundColor: 'green'}} onInputCleared={this.onEmailInputCleared} />
         <CrossTextInput underlineColorAndroid="transparent" value = {this.state.name} style={styles.textInput} autoCorrect={false} autoCapitalize="none" keyboardType="email-address" placeholder={'NAME'} placeholderTextColor="#adadad" onChangeText={(text) => this.setState({ name: text })}
-        containerStyle= {{backgroundColor: 'red'}} onInputCleared={this.onInputCleared} />
+        containerStyle= {{backgroundColor: 'red'}} onInputCleared={this.onNameInputCleared} />
       </View>
       
     )    
