@@ -1,5 +1,7 @@
 # react-native-TextInput-Addons
-A simple easy to use cross button, spinner, popOver(dropdown) and many other things in textInput 
+A simple easy to use cross button, spinner, popOver(dropdown) and many other things in textInput (Android and iOS) 
+
+----------
 
 **Getting started**
 
@@ -11,6 +13,8 @@ A simple easy to use cross button, spinner, popOver(dropdown) and many other thi
         react-native link
  - Step 4-
        Build your project and you are good to go.
+       
+----------       
 
 **Usage**
 
@@ -68,6 +72,8 @@ A simple easy to use cross button, spinner, popOver(dropdown) and many other thi
       
     });
 
+----------
+
 **Properties**
 
 |  Name         | Type          |
@@ -111,13 +117,17 @@ A simple easy to use cross button, spinner, popOver(dropdown) and many other thi
  -  Dynamic modals with animation
 
  -  Add test   
+ 
+ ----------
 
 **Author**
 
     Anoop Singh (codesingh)
     Email: anoop100singh@gmail.com
-    Stack Overflow: codesingh(username)    
-   
+    Stack Overflow: codesingh(username)
+    
+----------    
+
 **License**
     
 MIT
