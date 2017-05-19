@@ -79,9 +79,9 @@ A simple easy to use cross button, spinner, popOver(dropdown) and many other thi
 |  Name         | Type          |
 | ------------- |:-------------:| 
 | autoCorrect   | PropTypes.bool|
-| keyboardType      | TextInput.propTypes.keyboardType      
-| multiline | PropTypes.bool   
-| placeholderTextColor	PropTypes.string
+| keyboardType      | TextInput.propTypes.keyboardType |      
+| multiline | PropTypes.bool |  
+| placeholderTextColor |	PropTypes.string |
 | returnKeyType	| TextInput.propTypes.returnKeyType |
 | selectTextOnFocus | PropTypes.bool | 
 | placeholder	| PropTypes.string |
