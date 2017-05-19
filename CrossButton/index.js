@@ -8,15 +8,15 @@ type Props = {
 }
 
 const CrossButton = (props: Props) => {
-  const { onPress } = props
+  const { onPress, crossButtonStyle, crossButtonSize, crossButtonColor, crossButtonName } = props
 
   return (
     <TouchableOpacity onPress={() => onPress()}>
       <View style={{ marginRight: 5 }}>
       <Icon
-         name='times-circle'
-         size={20}
-         color='lightgrey'
+         name={crossButtonName || 'times-circle' }
+         size={crossButtonSize || 20}
+         color={crossButtonColor || 'lightgrey'}
        />
       </View>
     </TouchableOpacity>
