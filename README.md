@@ -96,19 +96,21 @@ A simple easy to use cross button, spinner, popOver(dropdown) and many other thi
 |  onChangeText |	PropTypes.func |
 |   onFocus | PropTypes.func |
 | hideCrossButton | PropTypes.bool |
-| containerStyle | PropTypes.bool |
+| containerStyle | PropTypes.object |
 | onInputCleared | PropTypes.func | 
+| crossButtonStyle | PropTypes.object |
+| crossButtonSize | PropTypes.number |
+| crossButtonColor | PropTypes.string |
+| crossButtonName | PropTypes.string |
+| isLoading | PropTypes.bool |
+| hideProgress | PropTypes.bool |
+| progressStyle | PropTypes.object |
+| progressColor | PropTypes.string |
 
 
 ----------
 
-**Todo list:-** 
-
- -  Custom Cross Button Icon    
-    
- -  Custom styling of Cross Button
-
- -  Integrate Spinner inside TextInput with alignment on left as well as right.
+**Todo list:-**    
 
  -  Display popovers on pressing button or TextInput dropdown.
 
