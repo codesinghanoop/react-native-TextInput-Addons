@@ -16,6 +16,11 @@ A simple easy to use cross button, spinner, popOver(dropdown) and many other thi
        
 ----------       
 
+![Alt Text](https://j.gifs.com/DRv0k5.gif)
+
+
+![Alt Text](https://j.gifs.com/WnV8nn.gif)
+
 **Usage**
 
     import CrossTextInput from 'react-native-cross-button'
